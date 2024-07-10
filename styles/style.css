@@ -7,8 +7,7 @@
 }
 
 /* banner-styles */
-.hero{
-    /* height: 615px; */
+.hero-content{
     position: absolute;
     width: 1440px;
     height: 652px;
@@ -25,7 +24,7 @@
 }
 
 /* hero-content */
-.hero-content{
+/* .hero-content{
     position: absolute;
     width: 998px;
     height: 582px;
@@ -33,13 +32,28 @@
     right: 221px;
     top: 157px;
     bottom: 4506px;
-}
+} */
 
-.hero-content{
+/* .hero-content{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    justify-content: flex-end;
+    justify-content: center;
+    /* justify-content: flex-end; */
+    /* align-items: center;
+    padding: 0px; */
+/* } */ 
+
+.hero-content{
+    width: 1440px;
+    height: 652px;
+}
+
+.good-hero{
+    width: 998px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     padding: 0px;
 }
@@ -64,33 +78,57 @@
     line-break: normal;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 14px;
+    margin-bottom: 30px;
+    /* color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center; */
 }
 
 /* describtion */
 .describtion{
-    color: rgb(13, 19, 33);
+    /* color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 14px;
+    text-align: center; */
+    margin-bottom: 20px;
+    width: 852px;
+height: 52px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
 }
 
 /* button-styles */
 .btn-primary{
-    padding: 5px 10px 5px 10px;
+    width: 250px;
+height: 66px;
+    /* padding: 5px 10px 5px 10px; */
+    padding: 21px 24px 21px 24px;
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 18px;
     letter-spacing: 0%;
     text-align: center;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
     /* position: static;
     width: 160px;
     height: 24px;
@@ -106,4 +144,5 @@
     right: -257.67%;
     top: 0%;
     bottom: 0%;
+    margin-bottom: 20px;
 }
