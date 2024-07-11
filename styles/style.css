@@ -4,8 +4,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
+/* body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
 /* banner-styles */
 .hero-content{
     position: absolute;
@@ -161,6 +166,17 @@ flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 padding: 80px 97px 80px 97px;
+}
+
+/* cards */
+.cards{
+    width: 946px;
+height: 1072px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
 }
 
 
@@ -356,6 +372,171 @@ padding: 48px;
 
 } */
 
+
+
+
+
+
+/* new attempt of assignment  */
+
+/* aim-container */
+.aim-container{
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid transparent;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+/* container-border */
+.container-border{
+    width: 946px;
+    height: 1235px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+/* top-text */
+.top-text{
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-text h3{
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top-text p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* first-card */
+.first-card{
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    border: 0.02px solid transparent;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+/* .first-third-border */
+.first-third-border{
+    width: 850px;
+    height: 240px;
+    border: 0.02px solid transparent;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* text-content */
+.text-content h4{
+    width: 390px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.text-content p{
+    width: 468px;
+height: 52px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin-bottom: 50px;
+}
+
+/* image-content */
+.image-content{
+    width: 274.17px;
+    height: 240px;
+}
+
+/* second-card */
+.second-card{
+    width: 946px;
+    height: 336px;
+    border: 0.02px solid transparent;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-bottom: 32px;
+    /* padding: 48px; */
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+/* second-border */
+.second-border{
+    width: 850px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* third-card */
+.third-card{
+    width: 946px;
+    height: 336px;
+    border: 0.02px solid transparent;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-bottom: 48px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+/* third-border */
+/* .first-third-border{
+
+} */
+
+/* learn-more-btn */
+.learn-more-btn{
+
+}
 
 
 
