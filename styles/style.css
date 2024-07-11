@@ -6,11 +6,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 
 /* banner-styles */
 
@@ -26,7 +21,6 @@
     justify-content: center;
     align-items: center;
 }
-
 
 .good-hero{
     width: 998px;
@@ -54,21 +48,21 @@
 .describtion{
     margin-bottom: 20px;
     width: 852px;
-height: 52px;
+    height: 52px;
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
 }
 
 /* button-styles */
 .btn-primary{
     width: 250px;
-height: 66px;
+    height: 66px;
     padding: 21px 24px 21px 24px;
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
@@ -80,10 +74,10 @@ height: 66px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-cursor: pointer;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 .hero-pic{
@@ -275,10 +269,6 @@ margin-bottom: 50px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 
-/* third-border */
-/* .first-third-border{
-
-} */
 
 /* learn-more-btn */
 .learn-more-btn{
@@ -291,9 +281,13 @@ margin-bottom: 50px;
     height: 1235px;
     margin: 0 auto;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    margin: 0 auto;
 }
-
-
 .inspired-me h3{
     width: 852px;
     height: 39px;
@@ -307,17 +301,33 @@ margin-bottom: 50px;
     margin-top: 50px;
     margin-bottom: 30px;
 }
-
 .inspired-me p{
     width: 852px;
     height: 52px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
     opacity: 0.7;
+}
+
+/* youtube-video */
+.youtube-video{
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 70px;
+}
+.the-content{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-radius: 30px; */
 }
 
 /* target-section  */
@@ -327,7 +337,6 @@ margin-bottom: 50px;
     margin: 0 auto;
     border-radius: 16px;
 }
-
 .taking-target h3{
     width: 852px;
     height: 39px;
@@ -341,7 +350,6 @@ margin-bottom: 50px;
     margin-top: 50px;
     margin-bottom: 30px;
 }
-
 .taking-target p{
     width: 852px;
     height: 52px;
@@ -352,6 +360,7 @@ margin-bottom: 50px;
     line-height: 26px;
     text-align: center;
     opacity: 0.7;
+    margin-bottom: 200px;
 }
 
 /* three-cards */
@@ -359,21 +368,156 @@ margin-bottom: 50px;
     width: 852px;
     height: 52px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 90px;
 }
-
 .card-html{
-    background-color: burlywood;
-    width: 470px;
-    height: 200px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    margin-right: 20px;
+}
+.card-html h4{
+    width: 284px;
+    height: 36px;color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.card-html p{
+    width: 284px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.image-html{
+    width: 56px;
+    height: 56px;
 }
 .card-css{
-    width: 470px;
-    height: 200px;
-    background-color: skyblue;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 364px;
+    height: 300px;
+    background: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    margin-right: 20px;
+    padding: 40px;
+}
+.card-css h4{
+    width: 284px;
+    height: 36px;color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.card-css p{
+    width: 284px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.image-css{
+    width: 56px;
+    height: 56px;
 }
 .card-js{
-    width: 470px;
-    height: 200px;
-    background-color: lightgoldenrodyellow;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 364px;
+    height: 300px;
+    background: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+.card-js h4{
+    width: 284px;
+    height: 36px;color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.card-js p{
+    width: 284px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.image-java{
+    width: 56px;
+    height: 56px;
+}
+.card-btn{
+    width: 110px;
+    height: 20px;color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
+    background: none;
+}
+
+/* comment-section */
+.comment-section{
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    background-image: url(../assets/handshake.jpg);
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 64px 48px 64px 48px;
+    margin-bottom: 100px;
+    border-radius: 16px;
+}
+.top-side{
+    width: 730px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.top-side h4{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
 }
