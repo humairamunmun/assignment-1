@@ -11,15 +11,14 @@
     flex-direction: column;
     justify-content: center;
 } */
+
 /* banner-styles */
+
 .hero-content{
-    position: absolute;
     width: 1440px;
     height: 652px;
-    left: 0;
-    right: 0;
-    top: 131px;
-    bottom: 4462px;
+    margin: 0 auto;
+    margin-top: 100px;
     background-image: url(../assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
@@ -28,30 +27,6 @@
     align-items: center;
 }
 
-/* hero-content */
-/* .hero-content{
-    position: absolute;
-    width: 998px;
-    height: 582px;
-    left: 221px;
-    right: 221px;
-    top: 157px;
-    bottom: 4506px;
-} */
-
-/* .hero-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* justify-content: flex-end; */
-    /* align-items: center;
-    padding: 0px; */
-/* } */ 
-
-.hero-content{
-    width: 1440px;
-    height: 652px;
-}
 
 .good-hero{
     width: 998px;
@@ -63,17 +38,6 @@
     padding: 0px;
 }
 
-/* .image{
-    position: absolute;
-    width: 240.28px;
-    height: 240px;
-    left: 257.67%;
-    right: -257.67%;
-    top: 0%;
-    bottom: 0%;
-    transform: rotate(180.00deg);
-} */
-
 .head-content{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -84,24 +48,10 @@
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 30px;
-    /* color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 48px;
-font-weight: 800;
-line-height: 68px;
-letter-spacing: 0%;
-text-align: center; */
 }
 
 /* describtion */
 .describtion{
-    /* color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: center; */
     margin-bottom: 20px;
     width: 852px;
 height: 52px;
@@ -119,7 +69,6 @@ opacity: 0.7;
 .btn-primary{
     width: 250px;
 height: 66px;
-    /* padding: 5px 10px 5px 10px; */
     padding: 21px 24px 21px 24px;
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
@@ -134,12 +83,7 @@ height: 66px;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-    /* position: static;
-    width: 160px;
-    height: 24px;
-    background-color: black;
-    color: white;
-    border-radius: 5px; */
+cursor: pointer;
 }
 
 .hero-pic{
@@ -151,230 +95,6 @@ align-items: center;
     bottom: 0%;
     margin-bottom: 20px;
 }
-
-/* main-section */
-.main-section{
-    position: absolute;
-width: 1140px;
-height: 1395px;
-left: 148px;
-right: 152px;
-top: 857px;
-bottom: 2993px;
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-padding: 80px 97px 80px 97px;
-}
-
-/* cards */
-.cards{
-    width: 946px;
-height: 1072px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-}
-
-
-
-/* frame-5 */
-.frame-5{
-    width: 852px;
-height: 115px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 0px;
-}
-
-.reason-of-learning{
-    width: 852px;
-height: 39px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 0px;
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 800;
-line-height: 37px;
-letter-spacing: 0%;
-text-align: center;
-}
-
-/* reason-describe */
-.reason-describe{
-    width: 852px;
-height: 52px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 0px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-}
-
-/* card */
-.card{
-    width: 946px;
-    height: 336px;
-    display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 48px;
-}
-
-/*card-inside */
-.card-inside{
-    width: 850px;
-height: 240px;
-}
-
-/* text */
-.text{
-    width: 477px;
-    height: 220px;
-    display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-}
-
-/* text-head */
-.text-head{
-    width: 390px;
-height: 72px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
-}
-
-/* card-describtion */
-.card-describtion{
-    width: 468px;
-height: 52px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-}
-
-/* photo-one */
-/* .photo-one{
-    width: 274.17px;
-height: 240px;
-} */
-/* #pic-one{
-    width: 259.56px;
-height: 217.01px;
-}
-#pic-two{
-    width: 223.2px;
-height: 208.85px;
-}
-#pic-three{
-    width: 206.4px;
-height: 187.32px;
-} */
-
-/* photo-two */
-.photo-two{
-    width: 240px;
-    height: 240px;
-}
-
-/* photo-three */
-.photo-three{
-    width: 240px;
-    height: 240px;
-}
-
-/* button-style */
-.btn-style{
-    width: 124px;
-height: 30px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 20px 12px 20px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 12px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-}
-
-
-/* second-card */
-/* .second-card{
-    width: 946px;
-    height: 336px;
-    display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 48px;
-} */
-
-/* second-card-inside */
-/* .second-card-inside{
-
-} */
-
-/* third-card */
-/* .third-card{
-    width: 946px;
-    height: 336px;
-    display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 48px;
-} */
-
-/* third-card-inside */
-/* .third-card-inside{
-
-} */
-
-
-
-
 
 
 /* new attempt of assignment  */
@@ -486,6 +206,33 @@ opacity: 0.7;
 margin-bottom: 50px;
 }
 
+.second-text-content h4{
+    width: 390px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 50px;   
+}
+
+.second-text-content p{
+    width: 468px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
 /* image-content */
 .image-content{
     width: 274.17px;
@@ -538,7 +285,95 @@ margin-bottom: 50px;
 
 }
 
+/* inspiration section  */
+.inspiration-section{
+    width: 946px;
+    height: 1235px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
 
 
+.inspired-me h3{
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 
+.inspired-me p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+}
 
+/* target-section  */
+.target-section{
+    width: 946px;
+    height: 1235px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.taking-target h3{
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.taking-target p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* three-cards */
+.three-cards{
+    width: 852px;
+    height: 52px;
+    display: flex;
+    margin-top: 90px;
+}
+
+.card-html{
+    background-color: burlywood;
+    width: 470px;
+    height: 200px;
+}
+.card-css{
+    width: 470px;
+    height: 200px;
+    background-color: skyblue;
+}
+.card-js{
+    width: 470px;
+    height: 200px;
+    background-color: lightgoldenrodyellow;
+}
